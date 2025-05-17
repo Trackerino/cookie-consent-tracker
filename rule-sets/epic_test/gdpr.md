@@ -28,7 +28,7 @@
 | epicgames.com | _epicSID | This cookie collects users meta data during page navigations to help improve user experiences internally. |
 | roborecall-site.pages.dev | __cf_bm | This is a CloudFoundry cookie |
 
-## Strictly Necessary Cookies (52)
+## Strictly Necessary Cookies (54)
 
 > These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
 
@@ -39,6 +39,7 @@
 | .epicgames.com | OptanonConsent | This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor. |
 | .epicgames.com | store-token | This cookie is used to store session token from store. |
 | cloudflare.epicgamescdn.com | __cf_bm | This is a CloudFoundry cookie |
+| dev.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
 | dev.epicgames.com | EPIC_SESSION_DEVPORTAL |  |
 | dev.epicgames.com | PRIVATE-CSRF-TOKEN |  |
 | eoshelp.epicgames.com | CookieConsentPolicy | Used to apply end-user cookie consent preferences set by our client-side utility. |
@@ -77,13 +78,14 @@
 | epicgames.com | XSRF-AM-TOKEN | This cookie is written to help with site security in preventing Cross-Site Request Forgery attacks. |
 | epicgames.com | XSRF-TOKEN | This cookie is written to help with site security in preventing Cross-Site Request Forgery attacks. |
 | gist.github.com | _gh_sess | This domain is a subsidiary of GitHub, Inc. which provides a platform for sharing and collaboration on code snippets (gists) among developers. |
-| graphql.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
 | graphql.epicgames.com | EPIC_SESSION_GRAPHQL |  |
+| hcaptcha.com | __cf_bm | This is a CloudFoundry cookie |
 | sac.epicgames.com | AWSALB | AWS ELB application load balancer |
 | sac.epicgames.com | AWSALBCORS | This cookie is managed by AWS and is used for load balancing. |
+| static-assets-prod.epicgames.com | EPIC_HELP_LOCALE_COOKIE | Persists locale preference on the support site |
 | unrealengine.com | __cf_bm | This is a CloudFoundry cookie |
 | unrealengine.com | EPIC_AODC_FAILED | Cookie used to control age gating success/failure status. Lasts 24 hours. |
-| www.epicgames.com | csrf-token |  |
+| www.epicgames.com | csrf-token | Security cookie to prevent cross-site forgery attacks |
 | www.epicgames.com | EPIC_CLIENT_SESSION | Authentication cookie |
 | www.recaptcha.net | _GRECAPTCHA | This domain is used by Google reCAPTCHA, which provides spam protection services to websites by detecting if a user is a human or a bot. |
 
