@@ -1,6 +1,6 @@
 # Global (Epic Standard template)
 
-## Functional Cookies (12)
+## Functional Cookies (13)
 
 > These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
 
@@ -16,6 +16,7 @@
 | github.com | _octo | This domain is owned by Github. The main business activity is: Source code repository and collaboration platform |
 | github.com | logged_in | This domain is owned by Github. The main business activity is: Source code repository and collaboration platform |
 | onlineservices.epicgames.com | EPIC_CLIENT_SESSION |  |
+| static-assets-prod.epicgames.com | EPIC_HELP_LOCALE_COOKIE | Persists locale preference on the support site |
 | youtube.com | VISITOR_INFO1_LIVE | This cookie is used as a unique identifier to track viewing of videos |
 | youtube.com | YSC | YouTube is a Google owned platform for hosting and sharing videos. YouTube collects user data through videos embedded in websites, which is aggregated with profile data from other Google services in order to display targeted advertising to web visitors across a broad range of their own and other websites. |
 
@@ -28,7 +29,7 @@
 | epicgames.com | _epicSID | This cookie collects users meta data during page navigations to help improve user experiences internally. |
 | roborecall-site.pages.dev | __cf_bm | This is a CloudFoundry cookie |
 
-## Strictly Necessary Cookies (54)
+## Strictly Necessary Cookies (56)
 
 > These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
 
@@ -50,6 +51,7 @@
 | epicgames.com | _epicAffiliate | This cookie is used for Support-A-Creator affiliation to tie an affiliate to a user web session. |
 | epicgames.com | _tald | Set for security and DDoS prevention services |
 | epicgames.com | _user_identity_app_session | Used for authentication information from Discourse on the dev community site |
+| epicgames.com | aws-waf-token | Used to verify that a client has successfully completed a challenge or CAPTCHA, allowing legitimate traffic to pass through AWS WAF while blocking malicious or bot traffic. |
 | epicgames.com | captcha | A cookie for validating user's captcha input. It has 5 min TTL. |
 | epicgames.com | csrf-token | It is designed to help protect a site against at particular type of software attack on web forms. |
 | epicgames.com | DevCommunitySessionCookie | Cookie used for authentication on the dev community site |
@@ -80,25 +82,21 @@
 | gist.github.com | _gh_sess | This domain is a subsidiary of GitHub, Inc. which provides a platform for sharing and collaboration on code snippets (gists) among developers. |
 | graphql.epicgames.com | EPIC_SESSION_GRAPHQL |  |
 | hcaptcha.com | __cf_bm | This is a CloudFoundry cookie |
-| sac.epicgames.com | AWSALB | AWS ELB application load balancer |
 | sac.epicgames.com | AWSALBCORS | This cookie is managed by AWS and is used for load balancing. |
-| static-assets-prod.epicgames.com | EPIC_HELP_LOCALE_COOKIE | Persists locale preference on the support site |
 | unrealengine.com | __cf_bm | This is a CloudFoundry cookie |
 | unrealengine.com | EPIC_AODC_FAILED | Cookie used to control age gating success/failure status. Lasts 24 hours. |
+| www.epicgames.com | AWSALB | AWS ELB application load balancer  |
+| www.epicgames.com | AWSALBTG | This cookie is associated with the Amazon Web Services Elastic Load Balancing functionality for routing client request on the server. |
+| www.epicgames.com | AWSALBTGCORS | This cookie is associated with the Amazon Web Services Elastic Load Balancing functionality for routing client request on the server. |
 | www.epicgames.com | csrf-token | Security cookie to prevent cross-site forgery attacks |
 | www.epicgames.com | EPIC_CLIENT_SESSION | Authentication cookie |
 | www.recaptcha.net | _GRECAPTCHA | This domain is used by Google reCAPTCHA, which provides spam protection services to websites by detecting if a user is a human or a bot. |
 
-## Targeting Cookies (6)
+## Targeting Cookies (1)
 
 > These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
 
 | Host | Cookie | Description |
 | ---- | ------ | ----------- |
-| www.epicgames.com | AWSALB | AWS ELB application load balancerUsed to attribute commission to affiliates when you arrive at the website from an affiliate referral link. It is set when you click on one of our links and used to let the advertiser and us know the website from which you came. |
-| www.epicgames.com | AWSALBCORS | This cookie is managed by AWS and is used for load balancing.Used to attribute commission to affiliates when you arrive at the website from an affiliate referral link. It is set when you click on one of our links and used to let the advertiser and us know the website from which you came. |
-| www.epicgames.com | AWSALBTG | This cookie is associated with the Amazon Web Services Elastic Load Balancing functionality for routing client request on the server.Used to attribute commission to affiliates when you arrive at the website from an affiliate referral link. It is set when you click on one of our links and used to let the advertiser and us know the website from which you came. |
-| www.epicgames.com | AWSALBTGCORS | This cookie is associated with the Amazon Web Services Elastic Load Balancing functionality for routing client request on the server.Used to attribute commission to affiliates when you arrive at the website from an affiliate referral link. It is set when you click on one of our links and used to let the advertiser and us know the website from which you came. |
-| youtube.com | __Secure-xxxxxxx | YouTube is a Google owned platform for hosting and sharing videos. YouTube collects user data through videos embedded in websites, which is aggregated with profile data from other Google services in order to display targeted advertising to web visitors across a broad range of their own and other websites. |
 | youtube.com | VISITOR_PRIVACY_METADATA | YouTube is a Google owned platform for hosting and sharing videos. YouTube collects user data through videos embedded in websites, which is aggregated with profile data from other Google services in order to display targeted advertising to web visitors across a broad range of their own and other websites. |
 
