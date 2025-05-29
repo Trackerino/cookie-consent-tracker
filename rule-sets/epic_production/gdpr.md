@@ -1,6 +1,6 @@
 # GDPR (Epic Standard template)
 
-## Functional Cookies (13)
+## Functional Cookies (11)
 
 > These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
 
@@ -10,15 +10,13 @@
 | eoshelp.epicgames.com | PicassoLanguage4b85598f-9941-4e6d-b961-7771f3718581Published | Used to store a user’s language selection for the support sites. The site doesn’t load without this cookie if the user changes the site’s language. |
 | epicgames.com | EGS_VAULT_UNLOCK | This cookie is used to tell whether the user has viewed the vault unlock video for free games |
 | epicgames.com | EGS_WISHLIST_LAYOUT | User preference for wishlist layout. Either CONDENSED or EXPANDED. |
-| epicgames.com | EPIC_LOCALE_COOKIE | Cookie to determine user preference for locale. |
 | epicgames.com | EPIC_SSP_ARTICLE_RATE | Tracking which player support articles have been given a rating |
 | epicgames.com | productName | Remember user's product name under productName url query |
 | github.com | _octo | This domain is owned by Github. The main business activity is: Source code repository and collaboration platform |
 | github.com | logged_in | This domain is owned by Github. The main business activity is: Source code repository and collaboration platform |
 | onlineservices.epicgames.com | EPIC_CLIENT_SESSION |  |
 | static-assets-prod.epicgames.com | EPIC_HELP_LOCALE_COOKIE | Persists locale preference on the support site |
-| youtube.com | VISITOR_INFO1_LIVE | This cookie is used as a unique identifier to track viewing of videos |
-| youtube.com | YSC | YouTube is a Google owned platform for hosting and sharing videos. YouTube collects user data through videos embedded in websites, which is aggregated with profile data from other Google services in order to display targeted advertising to web visitors across a broad range of their own and other websites. |
+| store.epicgames.com | EPIC_LOCALE_COOKIE | Cookie to determine user preference for locale. |
 
 ## Performance Cookies (2)
 
@@ -91,12 +89,4 @@
 | www.epicgames.com | csrf-token | Security cookie to prevent cross-site forgery attacks |
 | www.epicgames.com | EPIC_CLIENT_SESSION | Authentication cookie |
 | www.recaptcha.net | _GRECAPTCHA | This domain is used by Google reCAPTCHA, which provides spam protection services to websites by detecting if a user is a human or a bot. |
-
-## Targeting Cookies (1)
-
-> These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
-
-| Host | Cookie | Description |
-| ---- | ------ | ----------- |
-| youtube.com | VISITOR_PRIVACY_METADATA | YouTube is a Google owned platform for hosting and sharing videos. YouTube collects user data through videos embedded in websites, which is aggregated with profile data from other Google services in order to display targeted advertising to web visitors across a broad range of their own and other websites. |
 
