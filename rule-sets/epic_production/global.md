@@ -1,15 +1,17 @@
 # Global (Epic Standard template)
 
-## Functional Cookies (11)
+## Functional Cookies (14)
 
 > These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
 
 | Host | Cookie | Description |
 | ---- | ------ | ----------- |
+| api2.hcaptcha.com | __cflb | Testing |
 | dev.epicgames.com | EPIC_DOCSPORTAL_SESSION |  |
 | eoshelp.epicgames.com | PicassoLanguage4b85598f-9941-4e6d-b961-7771f3718581Published | Used to store a user’s language selection for the support sites. The site doesn’t load without this cookie if the user changes the site’s language. |
 | epicgames.com | EGS_VAULT_UNLOCK | This cookie is used to tell whether the user has viewed the vault unlock video for free games |
 | epicgames.com | EGS_WISHLIST_LAYOUT | User preference for wishlist layout. Either CONDENSED or EXPANDED. |
+| epicgames.com | EPIC_LOCALE | Session cookie which saves the user preference when they click on a specific language in the locale dropdown. |
 | epicgames.com | EPIC_SSP_ARTICLE_RATE | Tracking which player support articles have been given a rating |
 | epicgames.com | productName | Remember user's product name under productName url query |
 | github.com | _octo | This domain is owned by Github. The main business activity is: Source code repository and collaboration platform |
@@ -17,6 +19,7 @@
 | onlineservices.epicgames.com | EPIC_CLIENT_SESSION |  |
 | static-assets-prod.epicgames.com | EPIC_HELP_LOCALE_COOKIE | Persists locale preference on the support site |
 | store.epicgames.com | EPIC_LOCALE_COOKIE | Cookie to determine user preference for locale. |
+| www.epicgames.com | EPIC_HELP_LOCALE_COOKIE | Cookie to determine user preference for locale. |
 
 ## Performance Cookies (2)
 
@@ -27,7 +30,7 @@
 | epicgames.com | _epicSID | This cookie collects users meta data during page navigations to help improve user experiences internally. |
 | roborecall-site.pages.dev | __cf_bm | This is a CloudFoundry cookie |
 
-## Strictly Necessary Cookies (57)
+## Strictly Necessary Cookies (107)
 
 > These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
 
@@ -35,10 +38,19 @@
 | ---- | ------ | ----------- |
 | .epicgames.com | EPIC_SESSION_SHADOWCOMPLEX | This cookie is used to store session token for /shadowcomplex |
 | .epicgames.com | OptanonAlertBoxClosed | This cookie is set by websites using certain versions of the cookie law compliance solution from OneTrust.  It is set after visitors have seen a cookie information notice and in some cases only when they actively close the notice down.  It enables the website not to show the message more than once to a user.  The cookie has a one year lifespan and contains no personal information. |
+| .epicgames.com | OptanonConsent | This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor. |
 | .epicgames.com | store-token | This cookie is used to store session token from store. |
+| brand.epicgames.com | frontify-session-id | This cookie name is associated with frontify which is used to maintain user's login status as they navigate across multiple pages on the website. |
 | cloudflare.epicgamescdn.com | __cf_bm | This is a CloudFoundry cookie |
+| dev.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| dev.epicgames.com | EPIC_FORM_SESSION_TOKEN | Used to prevent Cross-site request forgery (CSRF) when forms are submitted. |
 | dev.epicgames.com | EPIC_SESSION_DEVPORTAL |  |
+| dev.epicgames.com | EpicOptanonConsent |  |
+| dev.epicgames.com | OptanonAlertBoxClosed | This cookie is set by websites using certain versions of the cookie law compliance solution from OneTrust. It is set after visitors have seen a cookie information notice and in some cases only when they actively close the notice down. It enables the website not to show the message more than once to a user. The cookie has a normal lifespan of one year and contains no personal information. |
+| dev.epicgames.com | OptanonConsent | This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor. |
 | dev.epicgames.com | PRIVATE-CSRF-TOKEN |  |
+| distro-gateway-prod.ol.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| ecosec.on.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
 | eoshelp.epicgames.com | CookieConsentPolicy | Used to apply end-user cookie consent preferences set by our client-side utility. |
 | eoshelp.epicgames.com | LSKey-c$CookieConsentPolicy | Salesforce cookie consent preferences |
 | eoshelp.epicgames.com | pctrk | Used to count page views by unauthenticated users against license usage. |
@@ -52,6 +64,7 @@
 | epicgames.com | csrf-token | It is designed to help protect a site against at particular type of software attack on web forms. |
 | epicgames.com | DevCommunitySessionCookie | Cookie used for authentication on the dev community site |
 | epicgames.com | ecma | Session Token used for pushing notifications via websocket |
+| epicgames.com | EPIC_AODC_FAILED | Cookie used to control age gating success/failure status.  Lasts 24 hours. |
 | epicgames.com | EPIC_AUTHSTATES | Allow users to use our oAuth in signup form and affiliate account settings page |
 | epicgames.com | EPIC_BEARER_TOKEN | rememberMe checked |
 | epicgames.com | EPIC_DATE_OF_BIRTH | It will be used to keep minor date of birth and prevent them to change date of birth during registration |
@@ -65,10 +78,13 @@
 | epicgames.com | EPIC_STAY_SIGNED_IN | Indicates for client that SSO is remembered  |
 | epicgames.com | eupubconsent | This cookie is used by the IAB Europe Transparency & Consent Framework to store the user's consent to the data collection Purposes. The cookie holds an encrypted consent string that vendors participating in the framework can read and determine the user's consent. |
 | epicgames.com | HAS_ACCEPTED_AGE_GATE_ONCE | This cookie helps determine whether an age gate has been accepted to ensure the appropriate content is displayed. |
+| epicgames.com | OptanonAlertBoxClosed | This cookie is set by websites using certain versions of the cookie law compliance solution from OneTrust.  It is set after visitors have seen a cookie information notice and in some cases only when they actively close the notice down.  It enables the website not to show the message more than once to a user.  The cookie has a one year lifespan and contains no personal information. |
+| epicgames.com | OptanonConsent | This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor. |
 | epicgames.com | private-csrf-token | Security cookie to prevent cross-site forgery attacks |
 | epicgames.com | REFRESH_EPIC_EG1 | This cookie is used for storing user's authentication token for Single Sign On. |
 | epicgames.com | refreshExpires | This cookie is used for storing user's authentication token for Single Sign On. |
 | epicgames.com | refreshTokenExpires | This cookie is used for storing user's authentication token for Single Sign On. |
+| epicgames.com | store-token | This cookie is used to store session token from /store |
 | epicgames.com | storeTokenExpires | This cookie is used for storing user's authentication token for Single Sign On. |
 | epicgames.com | tokenExpires | This cookie is used for storing user's authentication token for Single Sign On. |
 | epicgames.com | utvbinlinemod_nodes_thread | This cookie is necessary for moderators to use inline-moderation to approve/delete/merge threads |
@@ -79,24 +95,64 @@
 | graphql.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
 | graphql.epicgames.com | EPIC_SESSION_GRAPHQL |  |
 | hcaptcha.com | __cf_bm | This is a CloudFoundry cookie |
+| launcher-public-service-prod-cloudflare.ol.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| launcher-public-service-prod.ol.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| launcher-public-service-prod06.ol.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| legal.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| legal.epicgames.com | EpicOptanonConsent |  |
+| legal.epicgames.com | OptanonAlertBoxClosed | This cookie is set by websites using certain versions of the cookie law compliance solution from OneTrust.  It is set after visitors have seen a cookie information notice and in some cases only when they actively close the notice down.  It enables the website not to show the message more than once to a user.  The cookie has a one year lifespan and contains no personal information. |
+| legal.epicgames.com | OptanonConsent | This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor. |
+| marketplacehelp.epicgames.com | CookieConsentPolicy | Used to apply end-user cookie consent preferences set by our client-side utility. |
+| marketplacehelp.epicgames.com | LSKey-c$CookieConsentPolicy | Used to apply end-user cookie consent preferences set by our client-side utility. |
+| marketplacehelp.epicgames.com | pctrk | Used to count page views by unauthenticated users against license usage. |
+| marketplacehelp.epicgames.com | renderCtx | Used to store site parameters in the session for reuse across requests by a single client for functionality and performance reasons. |
+| nelly-service-prod-cloudflare.ecosec.on.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| ol.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| onlineservices.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| onlineservices.epicgames.com | EpicOptanonConsent |  |
+| onlineservices.epicgames.com | OptanonAlertBoxClosed | This cookie is set by websites using certain versions of the cookie law compliance solution from OneTrust. It is set after visitors have seen a cookie information notice and in some cases only when they actively close the notice down. It enables the website not to show the message more than once to a user. The cookie has a normal lifespan of one year and contains no personal information. |
+| onlineservices.epicgames.com | OptanonConsent | This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor. |
+| redeem.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
 | sac.epicgames.com | AWSALB | AWS ELB application load balancer |
 | sac.epicgames.com | AWSALBCORS | This cookie is managed by AWS and is used for load balancing. |
+| sac.epicgames.com | EPIC_CLIENT_SESSION |  |
+| sac.epicgames.com | XSRF-TOKEN | This cookie is written to help with site security in preventing Cross-Site Request Forgery attacks.This cookie helps with site security in preventing Cross-Site Request Forgery attacks. |
+| safety.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| static-assets-help-prod.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| static-assets-prod.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| status.epicgames.com | EpicOptanonConsent |  |
+| status.epicgames.com | OptanonAlertBoxClosed | This cookie is set by websites using certain versions of the cookie law compliance solution from OneTrust. It is set after visitors have seen a cookie information notice and in some cases only when they actively close the notice down. It enables the website not to show the message more than once to a user. The cookie has a normal lifespan of one year and contains no personal information. |
+| status.epicgames.com | OptanonConsent | This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor. |
+| store.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| store.epicgames.com | EpicOptanonConsent |  |
+| store.epicgames.com | OptanonAlertBoxClosed | This cookie is set by websites using certain versions of the cookie law compliance solution from OneTrust. It is set after visitors have seen a cookie information notice and in some cases only when they actively close the notice down. It enables the website not to show the message more than once to a user. The cookie has a normal lifespan of one year and contains no personal information. |
+| store.epicgames.com | OptanonConsent | This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor. |
 | unrealengine.com | __cf_bm | This is a CloudFoundry cookie |
 | unrealengine.com | EPIC_AODC_FAILED | Cookie used to control age gating success/failure status. Lasts 24 hours. |
+| www.epicgames.com | __cf_bm | The __cf_bm cookie is a cookie necessary to support Cloudflare Bot Management, currently in private beta. As part of our bot management service, this cookie helps manage incoming traffic that matches criteria associated with bots.<br/>This is a CloudFoundry cookie |
+| www.epicgames.com | AWSALB | AWS ELB application load balancer  |
+| www.epicgames.com | AWSALBCORS | This cookie is managed by AWS and is used for load balancing. |
 | www.epicgames.com | AWSALBTG | This cookie is associated with the Amazon Web Services Elastic Load Balancing functionality for routing client request on the server. |
 | www.epicgames.com | AWSALBTGCORS | This cookie is associated with the Amazon Web Services Elastic Load Balancing functionality for routing client request on the server. |
 | www.epicgames.com | csrf-token | Security cookie to prevent cross-site forgery attacks |
 | www.epicgames.com | EPIC_CLIENT_SESSION | Authentication cookie |
 | www.epicgames.com | EPIC_USER_SEARCH_ID | To maintain chat history between the user and support. |
+| www.epicgames.com | EpicOptanonConsent |  |
+| www.epicgames.com | OptanonAlertBoxClosed | This cookie is set by websites using certain versions of the cookie law compliance solution from OneTrust. It is set after visitors have seen a cookie information notice and in some cases only when they actively close the notice down. It enables the website not to show the message more than once to a user. The cookie has a normal lifespan of one year and contains no personal information. |
 | www.epicgames.com | OptanonConsent | This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor. |
+| www.epicgames.com | XSRF-TOKEN | This cookie is written to help with site security in preventing Cross-Site Request Forgery attacks. |
+| www.kidswebservices.com | cf_clearance | cf_clearance Cookie stores the proof of challenge passed. It is used to no longer issue a challenge if present. It is required to reach an origin server. |
 | www.recaptcha.net | _GRECAPTCHA | This domain is used by Google reCAPTCHA, which provides spam protection services to websites by detecting if a user is a human or a bot. |
 
-## Targeting Cookies (2)
+## Targeting Cookies (5)
 
 > These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
 
 | Host | Cookie | Description |
 | ---- | ------ | ----------- |
 | www.epicgames.com | aws-waf-token | Used to identify and separate malicious client sessions from legitimate sessions |
+| youtube.com | __Secure-xxxxxxx | YouTube is a Google owned platform for hosting and sharing videos. YouTube collects user data through videos embedded in websites, which is aggregated with profile data from other Google services in order to display targeted advertising to web visitors across a broad range of their own and other websites. |
+| youtube.com | VISITOR_INFO1_LIVE | This cookie is used as a unique identifier to track viewing of videos |
+| youtube.com | VISITOR_PRIVACY_METADATA | YouTube is a Google owned platform for hosting and sharing videos. YouTube collects user data through videos embedded in websites, which is aggregated with profile data from other Google services in order to display targeted advertising to web visitors across a broad range of their own and other websites. |
 | youtube.com | YSC | YouTube is a Google owned platform for hosting and sharing videos. YouTube collects user data through videos embedded in websites, which is aggregated with profile data from other Google services in order to display targeted advertising to web visitors across a broad range of their own and other websites. |
 
