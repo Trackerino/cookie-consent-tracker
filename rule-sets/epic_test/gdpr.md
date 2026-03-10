@@ -1,6 +1,6 @@
 # GDPR (Epic Standard template)
 
-## Functional Cookies (14)
+## Functional Cookies (13)
 
 > These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
 
@@ -11,7 +11,6 @@
 | eoshelp.epicgames.com | PicassoLanguage4b85598f-9941-4e6d-b961-7771f3718581Published | Used to store a user’s language selection for the support sites. The site doesn’t load without this cookie if the user changes the site’s language. |
 | epicgames.com | EGS_VAULT_UNLOCK | This cookie is used to tell whether the user has viewed the vault unlock video for free games |
 | epicgames.com | EGS_WISHLIST_LAYOUT | User preference for wishlist layout. Either CONDENSED or EXPANDED. |
-| epicgames.com | EPIC_LOCALE | Session cookie which saves the user preference when they click on a specific language in the locale dropdown. |
 | epicgames.com | EPIC_SSP_ARTICLE_RATE | Tracking which player support articles have been given a rating |
 | epicgames.com | productName | Remember user's product name under productName url query |
 | github.com | _octo | This domain is owned by Github. The main business activity is: Source code repository and collaboration platform |
@@ -30,7 +29,7 @@
 | epicgames.com | _epicSID | This cookie collects users meta data during page navigations to help improve user experiences internally. |
 | roborecall-site.pages.dev | __cf_bm | This is a CloudFoundry cookie |
 
-## Strictly Necessary Cookies (107)
+## Strictly Necessary Cookies (108)
 
 > These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
 
@@ -71,6 +70,7 @@
 | epicgames.com | EPIC_DEVICE | Account Portal in conjunction with MFA, so that the user is not repeatedly challenged to enter code on the same device/browser. It is also used by eCommerce for CVV challenge during checkout flow |
 | epicgames.com | EPIC_EG1 | This cookie is used for storing user's authentication token for Single Sign On. |
 | epicgames.com | EPIC_FORM_SESSION_TOKEN | Used to prevent Cross-site request forgery (CSRF) when forms are submitted. |
+| epicgames.com | EPIC_LOCALE | If you choose to view content on our website in a different language than the one we detected, we use this cookie to save that preference for the remainder of your session. |
 | epicgames.com | EPIC_SESSION_AP | Account portal encrypted authentication session cookie |
 | epicgames.com | EPIC_SSO | Single Sign On marker (Account Portal session ID) |
 | epicgames.com | EPIC_SSO_RM | cleans up redundant marker for remembered authentication |
